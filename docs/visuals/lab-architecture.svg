@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650">
+<rect width="1200" height="650" fill="#0b1220"/><text x="600" y="55" fill="#fff" font-size="32" text-anchor="middle" font-family="Arial">Snake Keylogger Analysis Lab Architecture</text>
+<rect x="70" y="130" width="450" height="390" rx="20" fill="#172033" stroke="#61dafb" stroke-width="3"/>
+<text x="295" y="175" fill="#61dafb" font-size="27" text-anchor="middle" font-family="Arial">REMnux Analysis VM</text>
+<text x="110" y="225" fill="#fff" font-size="21" font-family="Arial">• PEcheck / Exeinfo PE</text><text x="110" y="265" fill="#fff" font-size="21" font-family="Arial">• Ghidra / FLOSS</text><text x="110" y="305" fill="#fff" font-size="21" font-family="Arial">• Wireshark / INetSim</text><text x="110" y="345" fill="#fff" font-size="21" font-family="Arial">• YARA / IOC extraction</text><text x="110" y="385" fill="#fff" font-size="21" font-family="Arial">• Static + network analysis</text>
+<rect x="680" y="130" width="450" height="390" rx="20" fill="#172033" stroke="#f6c453" stroke-width="3"/>
+<text x="905" y="175" fill="#f6c453" font-size="27" text-anchor="middle" font-family="Arial">Windows 10 Victim VM</text>
+<text x="720" y="225" fill="#fff" font-size="21" font-family="Arial">• Controlled malware execution</text><text x="720" y="265" fill="#fff" font-size="21" font-family="Arial">• Procmon / Process Explorer</text><text x="720" y="305" fill="#fff" font-size="21" font-family="Arial">• Regshot</text><text x="720" y="345" fill="#fff" font-size="21" font-family="Arial">• File / registry / process evidence</text><text x="720" y="385" fill="#fff" font-size="21" font-family="Arial">• Host-Only network only</text>
+<line x1="520" y1="325" x2="680" y2="325" stroke="#fff" stroke-width="4"/><polygon points="680,325 660,313 660,337" fill="#fff"/><polygon points="520,325 540,313 540,337" fill="#fff"/>
+<text x="600" y="300" fill="#9ca3af" font-size="19" text-anchor="middle" font-family="Arial">Host-Only / isolated</text>
+<rect x="360" y="555" width="480" height="55" rx="12" fill="#26324a"/><text x="600" y="591" fill="#fff" font-size="20" text-anchor="middle" font-family="Arial">INetSim simulates Internet services</text>
+</svg>
