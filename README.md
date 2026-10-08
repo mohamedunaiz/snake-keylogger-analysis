@@ -2,7 +2,7 @@
 
 > **Educational / defensive cybersecurity research repository**
 
-This repository contains the report and detection artifacts from a controlled Snake Keylogger malware-analysis laboratory.
+This repository contains the analysis summary and defensive detection artifacts from a controlled Snake Keylogger malware-analysis laboratory.
 
 ## Overview
 
@@ -10,7 +10,7 @@ The analysis examined a Snake Keylogger sample through:
 
 - Static analysis
 - Dynamic analysis
-- Hybrid sandbox analysis with ANY.RUN
+- Hybrid sandbox analysis using ANY.RUN
 - IOC extraction
 - YARA detection engineering
 - MITRE ATT&CK mapping
@@ -40,7 +40,7 @@ snake-keylogger-analysis/
 ├── README.md
 ├── .gitignore
 ├── report/
-│   └── Snake_Keylogger_Analysis_Report.pdf
+│   └── Analysis-Summary.md
 ├── rules/
 │   └── snake_keylogger_autoit.yar
 └── docs/
@@ -66,7 +66,7 @@ snake-keylogger-analysis/
 
 ## Detection Highlights
 
-The report identifies indicators including:
+The analysis identified:
 
 - `unbarricading.vbs`
 - `unbarricading.exe`
@@ -82,10 +82,10 @@ The report identifies indicators including:
 
 **Do not execute the malware sample on a normal host, personal computer, production system, or unrestricted network.**
 
-This repository intentionally contains the **analysis report and defensive detection artifacts**, not the malware executable itself.
+This repository intentionally does **not** contain the malware executable. It contains defensive analysis documentation and detection artifacts.
 
-If reproducing the lab, use an isolated disposable VM/sandbox and keep malware traffic contained.
+For the detailed source report, use the original analysis PDF supplied with this project. The repository contains an analysis summary because the connected GitHub file-writing interface cannot upload binary PDF files directly.
 
 ## References
 
-See the full report in `report/Snake_Keylogger_Analysis_Report.pdf` for the original analysis evidence and references.
+See `docs/IOCs.md`, `docs/MITRE-ATT&CK.md`, and `rules/snake_keylogger_autoit.yar` for the extracted defensive artifacts.
