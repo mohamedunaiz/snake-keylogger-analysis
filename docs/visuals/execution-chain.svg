@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+<rect width="1200" height="420" fill="#0b1220"/><text x="600" y="48" fill="#fff" font-size="30" text-anchor="middle" font-family="Arial">Observed Snake Keylogger Execution Chain</text>
+<g font-family="Arial" font-size="20" text-anchor="middle"><rect x="55" y="145" width="180" height="90" rx="15" fill="#3b1f2b" stroke="#ff6b6b" stroke-width="3"/><text x="145" y="182" fill="#fff">Malware</text><text x="145" y="210" fill="#ffb4b4">initial sample</text>
+<rect x="285" y="145" width="180" height="90" rx="15" fill="#24344b" stroke="#61dafb" stroke-width="3"/><text x="375" y="182" fill="#fff">unbarricading.exe</text><text x="375" y="210" fill="#b9edff">launcher</text>
+<rect x="515" y="145" width="180" height="90" rx="15" fill="#3a3020" stroke="#f6c453" stroke-width="3"/><text x="605" y="182" fill="#fff">RegSvcs.exe</text><text x="605" y="210" fill="#ffe5a1">process hollowing</text>
+<rect x="745" y="145" width="180" height="90" rx="15" fill="#283728" stroke="#79d98b" stroke-width="3"/><text x="835" y="182" fill="#fff">WerFault.exe</text><text x="835" y="210" fill="#bff0c7">decoy / disguise</text>
+<rect x="975" y="145" width="170" height="90" rx="15" fill="#332747" stroke="#c9a7ff" stroke-width="3"/><text x="1060" y="182" fill="#fff">C2 / Exfiltration</text><text x="1060" y="210" fill="#dfccff">HTTP activity</text></g>
+<g stroke="#fff" stroke-width="4" fill="#fff"><line x1="235" y1="190" x2="285" y2="190"/><polygon points="285,190 267,179 267,201"/><line x1="465" y1="190" x2="515" y2="190"/><polygon points="515,190 497,179 497,201"/><line x1="695" y1="190" x2="745" y2="190"/><polygon points="745,190 727,179 727,201"/><line x1="925" y1="190" x2="975" y2="190"/><polygon points="975,190 957,179 957,201"/></g>
+<text x="600" y="300" fill="#cbd5e1" font-size="21" text-anchor="middle" font-family="Arial">Persistence: unbarricading.vbs → Startup folder</text>
+<text x="600" y="335" fill="#cbd5e1" font-size="21" text-anchor="middle" font-family="Arial">Keylogging: GetAsyncKeyState • Registry: Run/Startup • Evasion: VM checks</text>
+</svg>
